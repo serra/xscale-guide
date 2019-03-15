@@ -17,5 +17,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Hack away. A good place to start is `makefile`; 
+Hack away. A good place to start is `Makefile`; 
 that wil teach how we construct our guide from our wiki.
