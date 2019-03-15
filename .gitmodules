@@ -1,0 +1,3 @@
+[submodule "PyTiddlyWiki"]
+	path = PyTiddlyWiki
+	url = https://github.com/serra/PyTiddlyWiki.git
