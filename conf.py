@@ -23,9 +23,9 @@ copyright = '2019, XSCALE Alliance'
 author = 'XSCALE Alliance'
 
 # The short X.Y version
-version = ''
+version = '0.1.0'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '0.1.0-beta'
 
 # -- General configuration ---------------------------------------------------
 
@@ -118,20 +118,21 @@ latex_elements = {
     # 'figure_align': 'htbp',
 }
 
+latex_logo = '_static/xscale-wide.png'
+
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'XSCALEGuide.tex', 'XSCALE Guide Documentation',
-     'XSCALE Alliance', 'manual'),
+    (master_doc, 'XSCALEGuide.tex', 'XSCALE Guide', 'XSCALE Alliance',
+     'manual'),
 ]
 
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, 'xscaleguide', 'XSCALE Guide Documentation',
-              [author], 1)]
+man_pages = [(master_doc, 'xscaleguide', 'XSCALE Guide', [author], 1)]
 
 # -- Options for Texinfo output ----------------------------------------------
 
@@ -139,8 +140,8 @@ man_pages = [(master_doc, 'xscaleguide', 'XSCALE Guide Documentation',
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'XSCALEGuide', 'XSCALE Guide Documentation', author,
-     'XSCALEGuide', 'One line description of project.', 'Miscellaneous'),
+    (master_doc, 'XSCALEGuide', 'XSCALE Guide', author, 'XSCALEGuide',
+     'One line description of project.', 'Miscellaneous'),
 ]
 
 # -- Options for Epub output -------------------------------------------------
