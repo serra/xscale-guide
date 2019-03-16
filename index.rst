@@ -14,3 +14,7 @@ XSCALE Guide
    _wiki/Business Bingo
    _wiki/Leadership as a Service.rst
    _wiki/Release Refactoring
+
+Download the guide in
+`pdf <./_static/XSCALEGuide.pdf>`_ or
+`epub <./_static/XSCALEGuide.epub>`_ fornat.

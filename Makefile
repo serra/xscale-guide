@@ -11,10 +11,12 @@ help:
 
 .PHONY: help Makefile
 
-guide:
+guide: clean
 	make rinoh
 	make epub
 	make html
+	cp ./_build/rinoh/XSCALEGuide.pdf ./_build/html/_static/
+	cp ./_build/epub/XSCALEGuide.epub ./_build/html/_static/
 
 bootstrap:
 	git submodule init
