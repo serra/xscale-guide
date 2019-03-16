@@ -76,7 +76,16 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'logo': 'xscale.png',
+    'logo_name': True,
+    'github_user': 'serra',
+    'github_repo': 'xscale-guide',
+    'github_banner': True,
+    'github_button': False,
+    'show_relbars': True
+}
+#show_relbars = True
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
