@@ -9,20 +9,20 @@ make guide
 
 ## Development
 
-We use Python and Sphinx for creating our guide.
+We use Python, Sphinx and pandoc for creating our guide.
+We suggest you create a virtualenv, but this is optional:
 
 ```
 virtualenv venv
 source venv/bin/activate
-pip install -r requirements.txt
 ```
 
-We use a git submodule, so after your first checkout,
-init and update this submodule by doing:
+Then, bootstrap the project:
 
 ```
-git submodule init
-git submodule update
+make bootstrap
 ```
 
-Hack away. A good place to start is [`Makefile`](./Makefile).
+Hack away. Good places to start are 
+[`Makefile`](./Makefile) and
+[import_tiddlers.py](./import_tiddlers.py).

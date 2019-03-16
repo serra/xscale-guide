@@ -7,16 +7,21 @@ BUILDDIR      = _build
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	@echo "Additional make targets are 'download' and 'rinoh'"
+	@echo "Additional make targets are 'bootstrap', download' and 'rinoh'"
 
 .PHONY: help Makefile
+
+bootstrap:
+	git submodule init
+	git submodule update
+	pip install -r requirements.txt
+	pandoc -v
 
 download:
 	mkdir -p _wiki
 	wget https://xscale.wiki/index.html -O _wiki/index.html
 
 import:
-	@echo "Importing tiddlers ..."
 	python import_tiddlers.py
 
 # Catch-all target: route all unknown targets to Sphinx using the new
