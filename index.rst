@@ -3,18 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to XSCALE Guide's documentation!
-========================================
+XSCALE Guide
+============
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   _wiki/Business Bingo
+   _wiki/Leadership as a Service.rst
+   _wiki/Release Refactoring
