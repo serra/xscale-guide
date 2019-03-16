@@ -23,10 +23,10 @@ We use Python, [Sphinx] and [Pandoc] for creating our guide.
 We suggest you create a virtualenv, but this is optional.
 
 <details>
-```
+<code>
 virtualenv venv
 source venv/bin/activate
-```
+</code>
 </details>
 
 Before doing anything else, bootstrap the project:
@@ -54,8 +54,8 @@ Then we import the wiki tiddlers into our guide,
 and transform them into .rst format,
 by running `make import`.
 
-We combine these imported pages with some custom .rst files into our guide using [Sphinx].
-
+We combine these imported pages with some custom .rst files 
+into our guide using [Sphinx].
 
 ---
 
