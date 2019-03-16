@@ -25,5 +25,4 @@ git submodule init
 git submodule update
 ```
 
-Hack away. A good place to start is `Makefile`; 
-that wil teach how we construct our guide from our wiki.
+Hack away. A good place to start is [`Makefile`](./Makefile).
