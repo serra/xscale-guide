@@ -10,6 +10,7 @@ XSCALE Guide
    :maxdepth: 2
    :caption: Contents:
 
+   introduction
    _wiki/Business Bingo
    _wiki/Leadership as a Service.rst
    _wiki/Release Refactoring
