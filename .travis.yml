@@ -7,5 +7,4 @@ python:
 install:
   - make bootstrap
 script:
-  - make html
-  - make rinoh
+  - make guide

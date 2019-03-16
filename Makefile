@@ -7,9 +7,14 @@ BUILDDIR      = _build
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	@echo "Additional make targets are 'bootstrap', download' and 'rinoh'"
+	@echo "Additional make targets are 'bootstrap', download', 'guide' and 'rinoh'"
 
 .PHONY: help Makefile
+
+guide:
+	make rinoh
+	make epub
+	make html
 
 bootstrap:
 	git submodule init
