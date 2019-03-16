@@ -1,10 +1,20 @@
 language: python
 addons:
   apt_packages:
-    - pandoc
+  - pandoc
 python:
-  - "3.6"
+- '3.6'
 install:
-  - make bootstrap
+- make bootstrap
 script:
-  - make guide
+- make guide
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: "$GITHUB_TOKEN"
+  on:
+    branch: master
+  local-dir: "./_build/html"
+env:
+  global:
+    secure: Gnv5OftI6ccvoyBTzL9DiGbv2YIOfdrFVylbkSqOh6J1oqDMSv5pALeQwQHIR+WBDadA2SOWuwnQ1Yd80ILk2ff3M0btbMp478cBEGBlKd/HxiPPEyNh0OLzP/IfmvtXlGMesCI/Gcgh39mTA6gLP21asbJuy+5jDTp/rJ/fV0sVedl8KhW1QJpJncLstr7VXaS6LhkFFVTMXAu/qcQY2mtdm3HwFEMK0KcV0f9lQO+wsMzdHgSt/iV3CnBoSvCnJiyEF5fSbFl6jc6mio/AIj4F4xIR4jmCEaSfETB14Ejl/mLWYo71jynj0FunuDuVOyQp01ZPmTfowFLk0ruqRtBpgVggGTR/rDqfDHV2SrAmsSEluEeNQGP/fzcBpsmP8Qcw1WL2zfMrbd9p4R+vJo41sXVBSsgpwM3AJmZ7uzSYDCQs+Vaq3qLXzDxS07ApWtyO6JXr5ieha7BiEvQ8zBd5leJ0qR0Jf3PHLteR+hcu2p2Z+0NP0thJBlLSMhQkygqi26F0OifN2s/0GAICPtzckp2VFB0nb9og+aguVbvCDY98pafPPcpEk0msBQ2QNPmqMZM56SU+g+X4Ftb1sfuYdAT7xgaZedHYmvmh6KMgInV7mmKHJ7hnCPWLnZsql2v1K4q8drNB1xLTv8dvbEozSS99z0sXGRDC/MWxexw=
