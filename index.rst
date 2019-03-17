@@ -12,11 +12,11 @@ XSCALE Guide
 
    introduction
    _wiki/XSCALE Principles
+   _wiki/Leadership as a Service
    _wiki/XSCALE Structures
    _wiki/XSCALE Metrics
    _wiki/Throughput Diagram
-   _wiki/Business Bingo
-   _wiki/Leadership as a Service
-   _wiki/Release Refactoring
    _wiki/Pirate Canvas
+   _wiki/Business Bingo
+   _wiki/Release Refactoring
    downloads
