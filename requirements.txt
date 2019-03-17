@@ -2,4 +2,4 @@ Sphinx==1.8.5
 pypandoc==1.4
 tqdm==4.31.1
 rinohtype==0.3.1
-
+sphinx-autobuild==0.7.1

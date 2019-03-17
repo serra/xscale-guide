@@ -7,14 +7,11 @@ BUILDDIR      = _build
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	@echo "Additional make targets are 'bootstrap', download', 'guide' and 'rinoh'"
+	@echo "Additional make targets are 'bootstrap', download', 'guide', 'server' and 'rinoh'"
 
 .PHONY: help Makefile
 
-guide: clean
-	make rinoh
-	make epub
-	make html
+guide: clean rinoh epub html
 	cp ./_build/rinoh/XSCALEGuide.pdf ./_build/html/_static/
 	cp ./_build/epub/XSCALEGuide.epub ./_build/html/_static/
 
@@ -23,6 +20,9 @@ bootstrap:
 	git submodule update
 	pip install -r requirements.txt
 	pandoc -v
+
+server:
+	sphinx-autobuild . $(ALLSPHINXOPTS) $(BUILDDIR)/html
 
 download:
 	mkdir -p _wiki

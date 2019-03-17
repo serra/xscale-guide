@@ -46,6 +46,13 @@ make guide
 This will create a html, epub and pdf version of the guide,
 which can be found in `_build/html`, `_build/epub`, and `_build/rinoh` respectively.
 
+You can also start the guide in server mode.
+This will monitor changes to source files and rebuild and refresh the browser when needed:
+
+```
+make server
+```
+
 ## How it works
 
 We download the latest version of our wiki into the `_wiki` folder,
