@@ -16,7 +16,7 @@ This repository is mainly concerned
 with the creation and publication of the guide;
 a mostly automated process.
 Want to contribute to this? Hack away. Good places to start are 
-[`Makefile`](./Makefile) and [import_tiddlers.py](./import_tiddlers.py).
+[`Makefile`](./Makefile) and [`import_tiddlers.py`](./import_tiddlers.py).
 Pull requests with improvements are appreciated.
 
 ## How to use
