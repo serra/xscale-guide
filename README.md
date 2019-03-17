@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/serra/xscale-guide.svg?branch=master)](https://travis-ci.org/serra/xscale-guide)
 
 Scripts to create our XSCALE guide from our wiki.
+The guide published on https://serra.github.io/xscale-guide/,
+in web, pdf and epub format.
 
 ## Contributing
 
