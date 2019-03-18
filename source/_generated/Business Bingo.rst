@@ -1,12 +1,6 @@
 Business Bingo
 ==============
 
-**created**: 2015-10-25 03:39:45, **last modified**: 2019-03-15 18:48:39
-
-**keywords**: [‘guide’]
-
---------------
-
 `Feature Squad <Feature%20Squad>`__\ s use a simple collaborative
 estimation method called {{Planning Poker}} to determine the relative
 effort needed to deliver different stories. These {{Story Point}}

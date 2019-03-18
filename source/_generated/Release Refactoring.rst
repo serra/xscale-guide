@@ -1,12 +1,6 @@
 Release Refactoring
 ===================
 
-**created**: 2015-10-19 21:21:04, **last modified**: 2019-03-15 18:49:14
-
-**keywords**: [‘guide’]
-
---------------
-
 -  Release planning works to maximise `Product Market
    Impact <Impact%20Mapping>`__ and thereby business
    `Throughput <Throughput>`__ by reconciling feature priorities and

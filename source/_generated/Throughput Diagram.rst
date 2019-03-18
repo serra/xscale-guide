@@ -1,12 +1,6 @@
 Throughput Diagram
 ==================
 
-**created**: 2018-04-25 03:58:39, **last modified**: 2019-03-17 10:38:18
-
-**keywords**: [‘guide’]
-
---------------
-
 -  In `Lean Manufacturing <Lean%20Manufacturing>`__, the progress of a
    `Kanban <Kanban>`__ is tracked over time using a {{Cumulative Flow
    Diagram}} (CFD). CFDs are superior to traditional Agile

@@ -1,12 +1,6 @@
 XSCALE Principles
 =================
 
-**created**: 2015-08-07 02:12:58, **last modified**: 2019-03-17 10:39:22
-
-**keywords**: [‘guide’]
-
---------------
-
 **XSCALE** is an acronym for the principles of an `Agile
 Organization <Agile%20Organization>`__. Also a
 `language <Pattern%20Language>`__ of best practice for Agile

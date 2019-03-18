@@ -1,12 +1,6 @@
 Leadership as a Service
 =======================
 
-**created**: 2015-12-29 00:45:06, **last modified**: 2019-03-15 18:47:48
-
-**keywords**: [‘guide’]
-
---------------
-
    Power tends to corrupt, and absolute power corrupts absolutely. Great
    men are almost always bad men. – `Lord
    Acton <http://www.sciencedirect.com/science/article/pii/S1048984314000800>`__
