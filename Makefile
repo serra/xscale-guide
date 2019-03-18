@@ -1,7 +1,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SOURCEDIR     = .
+SOURCEDIR     = ./source
 BUILDDIR      = _build
 
 # Put it first so that "make" without argument is like "make help".
@@ -22,7 +22,7 @@ bootstrap:
 	pandoc -v
 
 server:
-	sphinx-autobuild . $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	sphinx-autobuild $(SOURCEDIR) $(ALLSPHINXOPTS) $(BUILDDIR)/html
 
 download:
 	mkdir -p _wiki
