@@ -1,8 +1,11 @@
 [![Build Status](https://travis-ci.org/serra/xscale-guide.svg?branch=master)](https://travis-ci.org/serra/xscale-guide)
 
-Scripts to create our XSCALE guide from our wiki.
-The guide published on https://serra.github.io/xscale-guide/,
+Scripts to create the XSCALE guide from our wiki.
+
+The guide is published on https://serra.github.io/xscale-guide/,
 in web, pdf and epub format.
+
+![XSCALE is like a pod of dolphins, not dancing elephants](./source/_static/xscale-wide.png)
 
 ## Contributing
 
@@ -15,7 +18,8 @@ the latest versions of those tiddlers.
 This repository is mainly concerned 
 with the creation and publication of the guide;
 a mostly automated process.
-Want to contribute to this? Hack away. Good places to start are 
+Want to contribute to this? Hack away. 
+Good places to start are 
 [`Makefile`](./Makefile) and [`import_tiddlers.py`](./import_tiddlers.py).
 Pull requests with improvements are appreciated.
 
@@ -25,10 +29,10 @@ We use Python, [Sphinx] and [Pandoc] for creating our guide.
 We suggest you create a virtualenv, but this is optional.
 
 <details>
-<code>
+<pre>
 virtualenv venv
 source venv/bin/activate
-</code>
+</pre>
 </details>
 
 Before doing anything else, bootstrap the project:
@@ -45,7 +49,7 @@ To build the guide run:
 make guide
 ```
 
-This will create a html, epub and pdf version of the guide,
+This will create an html, epub and pdf version of the guide,
 which can be found in `_build/html`, `_build/epub`, and `_build/rinoh` respectively.
 
 You can also start the guide in server mode.
