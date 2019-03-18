@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/serra/xscale-guide.svg?branch=master)](https://travis-ci.org/serra/xscale-guide)
+[![Build Status](https://travis-ci.org/serra/xscale-guide.svg?branch=master)][Travis CI]
 
 Scripts to create the XSCALE guide from our wiki.
 
@@ -70,9 +70,15 @@ by running `make import`.
 We combine these imported pages with some custom .rst files 
 into our guide using [Sphinx].
 
----
+Sphinx creates html, epub and pdf versions of our guide.
+All of these are published using Github Pages.
+
+[Travis CI] is used for continuous intgeration and publishing of the guide. 
+Commits to the master branch are deployed to Github Pages by Travis;
+see [`.travis.yml`](./.travis.yml) for details.
 
  [XSCALE wiki]: https://xscsale.wiki
  [Sphinx]: http://www.sphinx-doc.org/
  [Pandoc]: https://pandoc.org/
+ [Travis CI]: https://travis-ci.org/serra/xscale-guide
 
