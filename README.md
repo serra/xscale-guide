@@ -1,9 +1,5 @@
 [![Build Status](https://travis-ci.org/serra/xscale-guide.svg?branch=master)][Travis CI]
 
-[![CC BY-SA](source/_static/ccbysa.png)][CC BY-SA]
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][CC BY-SA]
-
 Scripts to create the XSCALE guide from our wiki.
 
 The guide is published on https://serra.github.io/xscale-guide/,
@@ -80,6 +76,13 @@ All of these are published using Github Pages.
 [Travis CI] is used for continuous intgeration and publishing of the guide. 
 Commits to the master branch are deployed to Github Pages by Travis;
 see [`.travis.yml`](./.travis.yml) for details.
+
+---
+
+[![CC BY-SA](source/_static/ccbysa.png)][CC BY-SA]
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][CC BY-SA]
+
 
  [XSCALE wiki]: https://xscsale.wiki
  [Sphinx]: http://www.sphinx-doc.org/
