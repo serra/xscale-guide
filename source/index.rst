@@ -14,3 +14,4 @@ XSCALE Guide
    _generated/XSCALE Metrics
    practices
    downloads
+   legal
