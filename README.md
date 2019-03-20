@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/serra/xscale-guide.svg?branch=master)][Travis CI]
 
+[![CC BY-SA](source/_static/ccbysa.png)][CC BY-SA]
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][CC BY-SA]
+
 Scripts to create the XSCALE guide from our wiki.
 
 The guide is published on https://serra.github.io/xscale-guide/,
@@ -81,4 +85,4 @@ see [`.travis.yml`](./.travis.yml) for details.
  [Sphinx]: http://www.sphinx-doc.org/
  [Pandoc]: https://pandoc.org/
  [Travis CI]: https://travis-ci.org/serra/xscale-guide
-
+ [CC BY-SA]: http://creativecommons.org/licenses/by-sa/4.0/

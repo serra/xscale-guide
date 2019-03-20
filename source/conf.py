@@ -19,7 +19,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'XSCALE Guide'
-copyright = '2019, XSCALE Alliance'
+copyright = '2019, CC BY-SA 4.0, XSCALE Alliance'
 author = 'XSCALE Alliance'
 
 # The short X.Y version
