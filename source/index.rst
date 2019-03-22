@@ -13,5 +13,4 @@ XSCALE Guide
    _generated/XSCALE Roles
    _generated/XSCALE Metrics
    practices
-   downloads
-   legal
+   colophon

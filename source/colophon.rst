@@ -1,5 +1,15 @@
-Legal
-=====
+Colophon
+========
+
+This is version |release| of the XSCALE guide.
+It is based on content from our wiki, available at |wiki-url|.
+
+This guide is available in the following formats:
+
+ * website: |download-base-url|
+ * `pdf <./_static/XSCALEGuide.pdf>`_
+ * `epub <./_static/XSCALEGuide.epub>`_
+
 
 License
 -------

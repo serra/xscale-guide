@@ -171,3 +171,7 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 # -- Extension configuration -------------------------------------------------
+rst_prolog = """
+.. |wiki-url| replace:: https://xscale.wiki
+.. |download-base-url| replace:: https://serra.github.io/xscale-guide/
+"""
