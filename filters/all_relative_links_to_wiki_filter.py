@@ -7,7 +7,7 @@ def action(elem, doc):
             # these are valid urls already, no need to process these
             pass
         else:
-            elem.url = 'https://xscale.wiki/' + elem.url
+            elem.url = 'https://xscale.wiki/#' + elem.url
 
 
 def main(doc=None):

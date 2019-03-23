@@ -2,19 +2,19 @@ XSCALE Roles
 ============
 
 There are two kinds of `Servant
-Leader <https://xscale.wiki/Leadership%20as%20a%20Service>`__ role in an
-`XSCALE Organization <https://xscale.wiki/XSCALE%20Organization>`__:
+Leader <https://xscale.wiki/#Leadership%20as%20a%20Service>`__ role in
+an `XSCALE Organization <https://xscale.wiki/#XSCALE%20Organization>`__:
 Coach and Leader. In general one coach
-`pairs <https://xscale.wiki/Pair-Working>`__ with one leader per the
+`pairs <https://xscale.wiki/#Pair-Working>`__ with one leader per the
 `Leadership as a
-Service <https://xscale.wiki/Leadership%20as%20a%20Service>`__ practice
+Service <https://xscale.wiki/#Leadership%20as%20a%20Service>`__ practice
 pattern. Each carries distinct responsibilities to reinforce their
-squads’ `autonomy <https://xscale.wiki/Autonomous%20Squad>`__.
+squads’ `autonomy <https://xscale.wiki/#Autonomous%20Squad>`__.
 
 **Coach Responsibilities**
 
 -  Determining the `Last Responsible
-   Moment <https://xscale.wiki/Last%20Responsible%20Moment>`__ for the
+   Moment <https://xscale.wiki/#Last%20Responsible%20Moment>`__ for the
    team to make a decision
 -  Structuring and scheduling ceremonies
 -  Quality-assuring the outcome of each ceremony
@@ -22,7 +22,7 @@ squads’ `autonomy <https://xscale.wiki/Autonomous%20Squad>`__.
 **Leader Responsibilities**
 
 -  Making the decision if there’s no unanimity in the `Last Responsible
-   Moment <https://xscale.wiki/Last%20Responsible%20Moment>`__
+   Moment <https://xscale.wiki/#Last%20Responsible%20Moment>`__
 -  Prioritising the input to each ceremony
 -  Representing outcomes of ceremonies to other teams
 
@@ -32,10 +32,10 @@ commonplace that doing so is sub-optimal as it overloads an individual
 while imbalancing power relationships in their team.
 
 For the specific responsibilities of leaders and coaches per squad see
-`XSCALE Coaches <https://xscale.wiki/XSCALE%20Coaches>`__ and `XSCALE
-Leaders <https://xscale.wiki/XSCALE%20Leaders>`__.
+`XSCALE Coaches <https://xscale.wiki/#XSCALE%20Coaches>`__ and `XSCALE
+Leaders <https://xscale.wiki/#XSCALE%20Leaders>`__.
 
-\|! `Principles <https://xscale.wiki/XSCALE%20Principles>`__ \|!
-`Practices <https://xscale.wiki/XSCALE%20Practices>`__ \|!
-`Structures <https://xscale.wiki/XSCALE%20Structures>`__ \|!
-`Metrics <https://xscale.wiki/XSCALE%20Metrics>`__ \|
+\|! `Principles <https://xscale.wiki/#XSCALE%20Principles>`__ \|!
+`Practices <https://xscale.wiki/#XSCALE%20Practices>`__ \|!
+`Structures <https://xscale.wiki/#XSCALE%20Structures>`__ \|!
+`Metrics <https://xscale.wiki/#XSCALE%20Metrics>`__ \|
