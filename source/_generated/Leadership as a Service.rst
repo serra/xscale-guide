@@ -8,7 +8,7 @@ Leadership as a Service
 The most enlightened civilisations in history regulated the ambitions of
 their leaders through systems of checks and balances. Perhaps the most
 successful example is the Iroquois `Fire Keepers’
-Consensus <Fire%20Keepers'%20Consensus>`__.
+Consensus <https://xscale.wiki/Fire%20Keepers'%20Consensus>`__.
 
    Accurate communication only happens between equals – `Robert Anton
    Wilson <https://en.wikipedia.org/wiki/Celine%27s_laws#Celine.27s_Second_Law>`__
@@ -18,9 +18,9 @@ team members don’t dare communicate accurately with the leader or, for
 fear of being quoted, with each other. As scaling the responsibilities
 of leadership eventually overwhelms any individual, leaders are obliged
 to delegate accountability to subordinates via `Command and
-Control <Command%20and%20Control>`__, which restricts teams from
-responding autonomously to change and so generates `Cultural
-Debt <Cultural%20Debt>`__.
+Control <https://xscale.wiki/Command%20and%20Control>`__, which
+restricts teams from responding autonomously to change and so generates
+`Cultural Debt <https://xscale.wiki/Cultural%20Debt>`__.
 
 **Therefore,**
 
@@ -33,31 +33,35 @@ Leader.
    role doesn’t get to decide. Servant leaders lead through influence,
    not authority.
 2. Only when the Coach judges the team can’t reach a decision before the
-   `Last Responsible Moment <Last%20Responsible%20Moment>`__ - then the
-   Leader decides. The squad abides by any such decision until and
+   `Last Responsible
+   Moment <https://xscale.wiki/Last%20Responsible%20Moment>`__ - then
+   the Leader decides. The squad abides by any such decision until and
    unless its other members unanimously overrule it.
 3. A Leader can only lead their own squad. For the sake of
-   `autonomy <Autonomous%20Squad>`__, no Leader is permitted to make
-   decisions for any other team. teams, which are fully capable of
-   `representing themselves <Team%20Representation>`__.
+   `autonomy <https://xscale.wiki/Autonomous%20Squad>`__, no Leader is
+   permitted to make decisions for any other team. teams, which are
+   fully capable of `representing
+   themselves <https://xscale.wiki/Team%20Representation>`__.
 
 Where a team is obliged to report into a Manager, the decision only
 constitutes advice from the team. Where teams composit in a
-`Holarchy <Holarchy>`__, there need be no intermediary managers.
+`Holarchy <https://xscale.wiki/Holarchy>`__, there need be no
+intermediary managers.
 
 Where an agreement must span more than one team, and disagreement or
 dependency cycles make this inefficient, teams align by `Team
-Representation <Team%20Representation>`__. To keep alignment relevant to
-current circumstances, they regularly `Brighten The
-Chain <Brighten%20The%20Chain>`__. Real servant leadership is more
-proactive than simple checks and balances. Its essence is generating
-`consensus <Consensus%20Decision-Making>`__.
+Representation <https://xscale.wiki/Team%20Representation>`__. To keep
+alignment relevant to current circumstances, they regularly `Brighten
+The Chain <https://xscale.wiki/Brighten%20The%20Chain>`__. Real servant
+leadership is more proactive than simple checks and balances. Its
+essence is generating
+`consensus <https://xscale.wiki/Consensus%20Decision-Making>`__.
 
 In order to assure that Leaders are passionately committed to the team’s
 success, they should be treated as `Directly Responsible
-Individual <Directly%20Responsible%20Individual>`__\ s. This places a
-leader under tension; on the one hand they represent a specific
-responsibility; on the other, they’re forced to lead through influence
-rather than authority. To succeed in the role requires vision, passion
-and empathy - all the attributes of a `Servant
-Leader <Servant%20Leader>`__.
+Individual <https://xscale.wiki/Directly%20Responsible%20Individual>`__\ s.
+This places a leader under tension; on the one hand they represent a
+specific responsibility; on the other, they’re forced to lead through
+influence rather than authority. To succeed in the role requires vision,
+passion and empathy - all the attributes of a `Servant
+Leader <https://xscale.wiki/Servant%20Leader>`__.
