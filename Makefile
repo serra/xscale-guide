@@ -27,6 +27,7 @@ bootstrap:
 
 import:
 	python import_tiddlers.py
+	rm ./source/_generated/*.md
 
 download:
 	mkdir -p _wiki
