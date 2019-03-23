@@ -18,7 +18,7 @@ def import_tiddlers():
 
 
 def process_tiddlers():
-    filters = ['./filters/all_relative_links_to_wiki_filter.py']
+    filters = glob.glob('./filters/*.py')
     input_filenames = glob.glob(source_dir + '*.md')
     for filename in input_filenames:
         outputfilename = os.path.splitext(filename)[0] + '.rst'
