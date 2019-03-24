@@ -1,6 +1,8 @@
 XSCALE Roles
 ============
 
+`View article on our wiki <https://xscale.wiki/#XSCALE%20Roles>`__
+
 There are two kinds of `Servant
 Leader <https://xscale.wiki/#Leadership%20as%20a%20Service>`__ role in
 an `XSCALE Organization <https://xscale.wiki/#XSCALE%20Organization>`__:

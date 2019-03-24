@@ -1,6 +1,8 @@
 Throughput Diagram
 ==================
 
+`View article on our wiki <https://xscale.wiki/#Throughput%20Diagram>`__
+
 -  In `Lean
    Manufacturing <https://xscale.wiki/#Lean%20Manufacturing>`__, the
    progress of a `Kanban <https://xscale.wiki/#Kanban>`__ is tracked

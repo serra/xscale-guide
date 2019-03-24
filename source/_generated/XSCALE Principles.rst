@@ -1,6 +1,8 @@
 XSCALE Principles
 =================
 
+`View article on our wiki <https://xscale.wiki/#XSCALE%20Principles>`__
+
 **XSCALE** is an acronym for the principles of an `Agile
 Organization <https://xscale.wiki/#Agile%20Organization>`__. Also a
 `language <https://xscale.wiki/#Pattern%20Language>`__ of best practice

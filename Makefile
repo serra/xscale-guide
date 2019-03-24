@@ -11,7 +11,7 @@ help:
 	@echo "  bootstrap   to setup your (virtual) environment for first use"  
 	@echo "  download    to download the latest version of the xscale wiki" 
 	@echo "  import      to import the content from the downloaded copy of\n" \
-          "               the XSCALE wiki into the source of the guide"   
+        "               the XSCALE wiki into the source of the guide"   
 	@echo "  guide       to create html, pdf and epub versions of our guide"
 	@echo "  server      to run the guide in sphinx-autobuild mode"
 	@echo "  rinoh       to create the pdf version of our guide if you don't\n" \

@@ -1,6 +1,8 @@
 Business Bingo
 ==============
 
+`View article on our wiki <https://xscale.wiki/#Business%20Bingo>`__
+
 `Feature Squad <https://xscale.wiki/#Feature%20Squad>`__\ s use a simple
 collaborative estimation method called {{Planning Poker}} to determine
 the relative effort needed to deliver different stories. These {{Story

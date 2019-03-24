@@ -1,6 +1,8 @@
 Leadership as a Service
 =======================
 
+`View article on our wiki <https://xscale.wiki/#Leadership%20as%20a%20Service>`__
+
    Power tends to corrupt, and absolute power corrupts absolutely. Great
    men are almost always bad men. – `Lord
    Acton <http://www.sciencedirect.com/science/article/pii/S1048984314000800>`__

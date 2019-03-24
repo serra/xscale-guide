@@ -1,6 +1,8 @@
 XSCALE Structures
 =================
 
+`View article on our wiki <https://xscale.wiki/#XSCALE%20Structures>`__
+
 {{$:/structures-image}}
 
 \|! `Principles <https://xscale.wiki/#XSCALE%20Principles>`__ \|!

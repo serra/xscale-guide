@@ -1,6 +1,8 @@
 Release Refactoring
 ===================
 
+`View article on our wiki <https://xscale.wiki/#Release%20Refactoring>`__
+
 -  Release planning works to maximise `Product Market
    Impact <https://xscale.wiki/#Impact%20Mapping>`__ and thereby
    business `Throughput <https://xscale.wiki/#Throughput>`__ by
