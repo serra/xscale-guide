@@ -1,0 +1,255 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Release Refactoring &#8212; XSCALE Guide 0.1.0-beta documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Colophon" href="../colophon.html" />
+    <link rel="prev" title="Business Bingo" href="Business Bingo.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+              <div class="related top">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="Business Bingo.html" title="Previous document">Business Bingo</a>
+        </li>
+        <li>
+          <a href="../colophon.html" title="Next document">Colophon</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="release-refactoring">
+<h1>Release Refactoring<a class="headerlink" href="#release-refactoring" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://xscale.wiki/#Release%20Refactoring">View article on our wiki</a></p>
+<ul class="simple">
+<li>Release planning works to maximise <a class="reference external" href="https://xscale.wiki/#Impact%20Mapping">Product Market
+Impact</a> and thereby
+business <a class="reference external" href="https://xscale.wiki/#Throughput">Throughput</a> by
+reconciling feature priorities and calendar dates with quantified
+<a class="reference external" href="https://xscale.wiki/#Release%20Goal">Release Goal</a>s across the
+<a class="reference external" href="https://xscale.wiki/#Epic%20Landscape">Epic Landscape</a>.</li>
+<li>Business, design and technical stakeholders self-organize into
+<a class="reference external" href="https://xscale.wiki/#Product%20Squad">Product Squad</a>s and
+<a class="reference external" href="https://xscale.wiki/#Portfolio%20Council">Portfolio Council</a>s
+to collaborate on tradeoffs for this purpose using <a class="reference external" href="https://xscale.wiki/#Leadership%20as%20a%20Service">Leadership as a
+Service</a> and
+<a class="reference external" href="https://xscale.wiki/#Open%20Book%20Management">Open Book
+Management</a>.</li>
+<li>When solution assumptions fail, market conditions change, new
+business, design or technology constraints are identified, or other
+significant learnings show up, feature priorities and release plans
+must be adapted to them immediately to maintain
+<a class="reference external" href="https://xscale.wiki/#Throughput">Throughput</a>.</li>
+</ul>
+<p><strong>Therefore,</strong></p>
+<p>Release Refactoring is a rapid consensus game that enables quick numeric
+trade-offs between different feature-sets while respecting calendar
+dates and budget limits for a release goal.</p>
+<ol class="arabic simple">
+<li>This is a game for the entire <a class="reference external" href="https://xscale.wiki/#Product%20Squad">Product
+Squad</a> - business
+stakeholders make the decisions but design and tech stakeholders
+question them and answer questions.</li>
+<li>Using the <a class="reference external" href="https://xscale.wiki/#Royal%20Cod">Royal Cod</a>
+prioritization derived by <a class="reference external" href="https://xscale.wiki/#Business%20Bingo">Business
+Bingo</a>, lay out all
+available <a class="reference external" href="https://xscale.wiki/#Feature">Feature</a>s in columns
+grouped by <a class="reference external" href="https://xscale.wiki/#Epic">Epic</a>.</li>
+<li>Pick the first column. Pick the feature at the top of the column.
+Let business stakeholders say whether the <a class="reference external" href="https://xscale.wiki/#Release%20Goal">Release
+Goal</a> can be satisfied for
+this Epic without including that feature. If they disagree, use
+<a class="reference external" href="https://xscale.wiki/#Leadership%20as%20a%20Service">Leadership as a
+Service</a> to
+resolve the matter.</li>
+<li>Continue down the column, feature by feature, until the business
+stakeholders agree that one of the features isn’t critical for the
+<a class="reference external" href="https://xscale.wiki/#Release%20Goal">Release Goal</a> for this
+<a class="reference external" href="https://xscale.wiki/#Epic">Epic</a>.</li>
+<li>Call all the features above that one <strong>bronze</strong> and all the ones
+below them <strong>silver</strong>.</li>
+<li>Now ask the business stakeholders whether any of the silver features
+could be deferred till the following release without impacting the
+<a class="reference external" href="https://xscale.wiki/#Release%20Goal">Release Goal</a>. Call the
+ones that can be deferred “gold”.</li>
+<li>Total how many feature points are in each of bronze, silver and gold
+levels for that Epic.</li>
+<li>Total how much <a class="reference external" href="https://xscale.wiki/#ROI">ROI</a> are in each of
+bronze, silver and gold levels for that Epic.</li>
+<li>Repeat the above steps for all columns.</li>
+<li>If you’re working to create a release plan for a particular date,
+determine how many feature points correspond to that constraint. Now
+simply select the combination of bronze, silver and gold groups with
+the maximum <a class="reference external" href="https://xscale.wiki/#ROI">ROI</a> within that number.</li>
+<li>Let stakeholders do some fine tuning and trade-offs of features from
+different epics to respect <a class="reference external" href="https://xscale.wiki/#COD">COD</a>
+issues. But make certain they start with the bronze/silver/gold
+tranches so keep this conversation manageable.</li>
+<li>If fitting to a continuous delivery funding model rather than a
+specific date, use <a class="reference external" href="https://xscale.wiki/#Getting%20Features%20Done">Getting Features
+Done</a> instead.</li>
+<li>Keep the refactoring board on an <a class="reference external" href="https://xscale.wiki/#Information%20Radiator">Information
+Radiator</a> to assure
+continuous alignment of authorities and for context for the next
+<a class="reference external" href="https://xscale.wiki/#Release%20Refactoring">Release Refactoring</a>
+session.</li>
+</ol>
+<p>Release Refactoring is played whenever new features are added to the
+<a class="reference external" href="https://xscale.wiki/#Acceptance%20Matrix">Acceptance Matrix</a>,
+whenever <a class="reference external" href="https://xscale.wiki/#Sprint%20Planning">Sprint Planning</a>
+indicates a feature’s budget is blown, or whenever the PO calls for it.
+Because this is such a quick game it’s also possible to play using
+set-based <a class="reference external" href="https://xscale.wiki/#Simple%20Design">Simple Design</a> in an
+<a class="reference external" href="https://xscale.wiki/#R&amp;D%20Stream">R&amp;D Stream</a> mode to evaluate
+alternative product plans to evaluate possible responses to changes in
+market conditions.</p>
+</div>
+
+
+          </div>
+              <div class="related bottom">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="Business Bingo.html" title="Previous document">Business Bingo</a>
+        </li>
+        <li>
+          <a href="../colophon.html" title="Next document">Colophon</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/xscale.png" alt="Logo"/>
+    
+    <h1 class="logo logo-name">XSCALE Guide</h1>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">About this guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Principles.html">XSCALE Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Structures.html">XSCALE Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Roles.html">XSCALE Roles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Metrics.html">XSCALE Metrics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../practices.html">XSCALE Practices</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="YAGNI.html">YAGNI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Seven Samurai.html">Seven Samurai</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Leadership as a Service.html">Leadership as a Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Throughput Diagram.html">Throughput Diagram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Pirate Canvas.html">Pirate Canvas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Business Bingo.html">Business Bingo</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Release Refactoring</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../colophon.html">Colophon</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../practices.html">XSCALE Practices</a><ul>
+      <li>Previous: <a href="Business Bingo.html" title="previous chapter">Business Bingo</a></li>
+      <li>Next: <a href="../colophon.html" title="next chapter">Colophon</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, CC BY-SA 4.0, XSCALE Alliance.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/_generated/Release Refactoring.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/serra/xscale-guide" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>

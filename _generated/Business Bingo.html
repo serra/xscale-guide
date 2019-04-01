@@ -1,0 +1,263 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Business Bingo &#8212; XSCALE Guide 0.1.0-beta documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Release Refactoring" href="Release Refactoring.html" />
+    <link rel="prev" title="Pirate Canvas" href="Pirate Canvas.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+              <div class="related top">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="Pirate Canvas.html" title="Previous document">Pirate Canvas</a>
+        </li>
+        <li>
+          <a href="Release Refactoring.html" title="Next document">Release Refactoring</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="business-bingo">
+<h1>Business Bingo<a class="headerlink" href="#business-bingo" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://xscale.wiki/#Business%20Bingo">View article on our wiki</a></p>
+<p><a class="reference external" href="https://xscale.wiki/#Feature%20Squad">Feature Squad</a>s use a simple
+collaborative estimation method called {{Planning Poker}} to determine
+the relative effort needed to deliver different stories. These {{Story
+Point}} estimates can be converted into dollars and time by combination
+with delivery throughput measurements called {{Velocity}}. But they’re
+not a suitable input to release planning because:</p>
+<ul class="simple">
+<li>They don’t and were never intended to estimate a <a class="reference external" href="https://xscale.wiki/#Feature%20Budget">Feature
+Budget</a>. To get at a budget
+estimate you’d have to multiply them by the <a class="reference external" href="https://xscale.wiki/#Story%20Velocity">Story
+Velocity</a>, which inevitably
+and intentionally varies from team to team and, within a single team,
+from time to time.</li>
+<li>You can’t produce story point estimates without breaking down
+<a class="reference external" href="https://xscale.wiki/#Feature">Feature</a>s into
+<a class="reference external" href="https://xscale.wiki/#Story">Stories</a>. If you wait until you’ve
+done that for all your features, you’ve stepped out of Agile-land
+back into Waterfall-land to have an Analysis
+<a class="reference external" href="https://xscale.wiki/#phase">phase</a>. But if you don’t commit to
+some kind of Feature-level release plan you’ll wind up with the
+Business rebelling because of a lack of
+<a class="reference external" href="https://xscale.wiki/#predictability">predictability</a>, which will
+also take you back to Waterfall-land.</li>
+<li>There are plenty of costs associated with delivering a Feature that
+aren’t captured by Story estimates, especially to do with <a class="reference external" href="https://xscale.wiki/#Feature%20Integration%20Testing">Feature
+Integration
+Testing</a>,
+<a class="reference external" href="https://xscale.wiki/#System%20Integration%20Testing">System Integration
+Testing</a>,
+<a class="reference external" href="https://xscale.wiki/#Marketing">Marketing</a> and
+<a class="reference external" href="https://xscale.wiki/#Opex">Opex</a>. These must be taken into
+account when budgeting Features for a release plan.</li>
+</ul>
+<p><strong>Therefore,</strong></p>
+<p>Business Bingo is a simple way to quickly determine the budget (time *
+resource) and relative ROI (Royal Cod) of a feature set without waiting
+for its features to be broken down into estimable stories. It bases
+estimates and priorities on the historical costs of a set of features
+delivered in previous releases and takes costs of analysis and operation
+into account too. It also provides a simple method to “monetize” <a class="reference external" href="https://xscale.wiki/#Story%20Points">Story
+Points</a> in terms of feature
+budgets in <a class="reference external" href="https://xscale.wiki/#Feature%20Points">Feature Points</a>.</p>
+<p>Best of all, <strong>Business Bingo</strong> is easy, fun to play, and quickly aligns
+business and technical stakeholders. It works like this:</p>
+<ol class="arabic simple">
+<li>Write Fibonacci numbers from 1 to 89 on cards and lay them out in a
+row across a large table. There’s nothing magical about Fibonacci
+numbers - we use them because they consistently lead people to argue
+in terms of trade-offs - is feature A really as big as feature B +
+feature C, and so on.</li>
+<li>Select three previously delivered and deployed features with well
+documented costs, one small, one medium and one large. Call these
+probes. Describe each probe in story-normal form commensurable with
+the roadmap features you want to estimate and represent their
+complete delivery costs - including documentation, hotfix, opex, the
+whole nine yards - in terms of <a class="reference external" href="https://xscale.wiki/#Feature%20Point">Feature
+Point</a>s. Place the three
+probes under the Fibonacci numbers that match their respective
+magnitudes in feature points.</li>
+<li>Pick a feature from your <a class="reference external" href="https://xscale.wiki/#Acceptance%20Matrix">Acceptance
+Matrix</a>. Compare it with
+the probes, starting with the middle one, to evaluate its relative
+size in Fibonacci multiples of feature points.</li>
+<li>As you add features, sort them into the appropriate Fibonacci column.
+Continue to compare features this way until there are none left to
+compare. If the estimators cannot agree on the Fibonacci number for a
+feature, split it into pieces they can estimate separately.</li>
+<li>Take features that wind up in the last 3 columns and break them into
+pieces you can estimate separately. This granularity limit greatly
+improves the overall quality of the estimates.</li>
+<li>To estimate relative business value, you simply pick a different set
+of 3 probes - one for an existing deployed feature that the PO says
+has low business value, and then one that’s critically important to
+business function, and then one roughly in between. Place them at 3,
+13 and 55, respectively, and the rest of the Bingo game runs as
+above.</li>
+<li>All <a class="reference external" href="https://xscale.wiki/#Product%20Squad">Product Squad</a> members
+collaborate in a 3rd pass to calculate
+<a class="reference external" href="https://xscale.wiki/#Risk">Risk</a>s.</li>
+<li>Record all three numbers on each feature card as input to <a class="reference external" href="https://xscale.wiki/#Royal%20Cod">Royal
+Cod</a> prioritization.</li>
+</ol>
+<p>There’s no dollar quantification of the return here, but we’ve found
+business stakeholders quickly converge on which features are worth more
+than which. And the conversations they have in getting to agreement are
+extremely illuminating - the technical team members need to listen
+carefully and ask questions to make certain they share the business
+context.</p>
+<p><a class="reference external" href="https://xscale.wiki/#ToDo">ToDo</a>: update this description to account
+for return estimation via {{Pirate Canvas}}.</p>
+</div>
+
+
+          </div>
+              <div class="related bottom">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="Pirate Canvas.html" title="Previous document">Pirate Canvas</a>
+        </li>
+        <li>
+          <a href="Release Refactoring.html" title="Next document">Release Refactoring</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/xscale.png" alt="Logo"/>
+    
+    <h1 class="logo logo-name">XSCALE Guide</h1>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">About this guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Principles.html">XSCALE Principles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Structures.html">XSCALE Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Roles.html">XSCALE Roles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XSCALE Metrics.html">XSCALE Metrics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../practices.html">XSCALE Practices</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="YAGNI.html">YAGNI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Seven Samurai.html">Seven Samurai</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Leadership as a Service.html">Leadership as a Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Throughput Diagram.html">Throughput Diagram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Pirate Canvas.html">Pirate Canvas</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Business Bingo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Release Refactoring.html">Release Refactoring</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../colophon.html">Colophon</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../practices.html">XSCALE Practices</a><ul>
+      <li>Previous: <a href="Pirate Canvas.html" title="previous chapter">Pirate Canvas</a></li>
+      <li>Next: <a href="Release Refactoring.html" title="next chapter">Release Refactoring</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, CC BY-SA 4.0, XSCALE Alliance.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/_generated/Business Bingo.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/serra/xscale-guide" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>
