@@ -36,8 +36,3 @@ while imbalancing power relationships in their team.
 For the specific responsibilities of leaders and coaches per squad see
 `XSCALE Coaches <https://xscale.wiki/#XSCALE%20Coaches>`__ and `XSCALE
 Leaders <https://xscale.wiki/#XSCALE%20Leaders>`__.
-
-\|! `Principles <https://xscale.wiki/#XSCALE%20Principles>`__ \|!
-`Practices <https://xscale.wiki/#XSCALE%20Practices>`__ \|!
-`Structures <https://xscale.wiki/#XSCALE%20Structures>`__ \|!
-`Metrics <https://xscale.wiki/#XSCALE%20Metrics>`__ \|

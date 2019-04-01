@@ -32,8 +32,3 @@ Organization <https://xscale.wiki/#Agile%20Organization>`__\ s.
   loop <https://xscale.wiki/#Learning>`__
 |   **E**\ `cosystems
   Thinking <https://xscale.wiki/#Whole%20Board%20Thinking>`__
-
-\|! `Practices <https://xscale.wiki/#XSCALE%20Practices>`__ \|!
-`Structures <https://xscale.wiki/#XSCALE%20Structures>`__ \|!
-`Metrics <https://xscale.wiki/#XSCALE%20Metrics>`__ \|!
-`Roles <https://xscale.wiki/#XSCALE%20Roles>`__ \|

@@ -30,3 +30,4 @@ We've used many open source tools to create this guide, most notably:
  * PyTiddlyWiki
  * Pandoc
  * PyPandoc
+ * Panflute
