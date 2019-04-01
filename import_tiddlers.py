@@ -8,9 +8,8 @@ import os
 source_dir = './source/_generated/'
 
 
-def import_tiddlers():
+def import_tiddlers(predicate):
     tw5 = TiddlyWiki.parse_from_html('./_wiki/index.html')
-    predicate = lambda t: 'guide' in t.tags
     guide_tiddlers = list(tw5.finditer(predicate))
 
     for tiddler in guide_tiddlers:
@@ -27,7 +26,12 @@ def process_tiddlers():
 
 
 def main():
-    import_tiddlers()
+    tagged_guide = lambda t: 'guide' in t.tags
+    import_tiddlers(tagged_guide)
+
+    predicate = lambda t: t.title.startswith('metrics')
+    import_tiddlers(predicate)
+
     process_tiddlers()
 
 

@@ -8,6 +8,7 @@ XSCALE Practices
    :caption: YAGNI, or do you?
 
    _generated/YAGNI
+   _generated/Seven Samurai
    _generated/Leadership as a Service
    _generated/Throughput Diagram
    _generated/Pirate Canvas
