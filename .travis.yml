@@ -13,6 +13,7 @@ deploy:
   skip-cleanup: true
   github-token: "$GITHUB_TOKEN"
   on:
+    repo: XSCALE-Alliance/xscale-guide
     branch: master
   local-dir: "./_build/html"
 env:
