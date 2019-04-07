@@ -2,7 +2,7 @@
 
 Scripts to create the XSCALE guide from our wiki.
 
-The guide is published on https://serra.github.io/xscale-guide/,
+The guide is published on https://XSCALE-Alliance.github.io/xscale-guide/,
 in web, pdf and epub format.
 
 ![XSCALE is like a pod of dolphins, not dancing elephants](./source/_static/xscale-wide.png)
@@ -87,5 +87,5 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
  [XSCALE wiki]: https://xscsale.wiki
  [Sphinx]: http://www.sphinx-doc.org/
  [Pandoc]: https://pandoc.org/
- [Travis CI]: https://travis-ci.org/serra/xscale-guide
+ [Travis CI]: https://travis-ci.org/XSCALE-Alliance/xscale-guide
  [CC BY-SA]: http://creativecommons.org/licenses/by-sa/4.0/
