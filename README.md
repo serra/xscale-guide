@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/serra/xscale-guide.svg?branch=master)][Travis CI]
+[![Build Status](https://travis-ci.org/XSCALE-Alliance/xscale-guide.svg?branch=master)][Travis CI]
 
 Scripts to create the XSCALE guide from our wiki.
 
