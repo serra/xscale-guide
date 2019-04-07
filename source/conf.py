@@ -79,7 +79,7 @@ html_theme = 'alabaster'
 html_theme_options = {
     'logo': 'xscale.png',
     'logo_name': True,
-    'github_user': 'serra',
+    'github_user': 'XSCALE-Alliance',
     'github_repo': 'xscale-guide',
     'github_banner': True,
     'github_button': False,
@@ -173,5 +173,5 @@ epub_exclude_files = ['search.html']
 # -- Extension configuration -------------------------------------------------
 rst_prolog = """
 .. |wiki-url| replace:: https://xscale.wiki
-.. |download-base-url| replace:: https://serra.github.io/xscale-guide/
+.. |download-base-url| replace:: https://XSCALE-Alliance.github.io/xscale-guide/
 """
